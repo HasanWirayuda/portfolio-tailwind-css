@@ -1082,6 +1082,11 @@ video {
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
+.text-darkYellow {
+  --tw-text-opacity: 1;
+  color: rgb(243 239 224 / var(--tw-text-opacity));
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(253 194 31 / var(--tw-text-opacity));
@@ -1092,16 +1097,6 @@ video {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
-.text-slate-200 {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
-}
-
-.text-slate-300 {
-  --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
-}
-
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
@@ -1110,11 +1105,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-darkYellow {
-  --tw-text-opacity: 1;
-  color: rgb(243 239 224 / var(--tw-text-opacity));
 }
 
 .opacity-60 {
@@ -1317,6 +1307,11 @@ body {
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
+.dark\:text-darkYellow:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(243 239 224 / var(--tw-text-opacity));
+}
+
 .dark\:text-primary:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(253 194 31 / var(--tw-text-opacity));
@@ -1332,11 +1327,6 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.dark\:text-darkYellow:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(243 239 224 / var(--tw-text-opacity));
-}
-
 .dark\:shadow-sm:is(.dark *) {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -1345,21 +1335,6 @@ body {
 
 .dark\:shadow-slate-500:is(.dark *) {
   --tw-shadow-color: #64748b;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.dark\:shadow-darkYellow:is(.dark *) {
-  --tw-shadow-color: #f3efe0;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.dark\:shadow-slate-800:is(.dark *) {
-  --tw-shadow-color: #1e293b;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.dark\:shadow-slate-700:is(.dark *) {
-  --tw-shadow-color: #334155;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
